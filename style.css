@@ -249,3 +249,68 @@ figure:hover .overlay {
   font-size: 1.1rem;
   font-weight: 400;
 }
+
+.game-catagories-section h2 {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.game-catagories {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.game-catagories h3 {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.game-catagories figure {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem;
+  border: 2px solid transparent;
+}
+
+.game-catagories figure:hover {
+  border: 2px solid var(--secondary-color);
+  border-radius: 2.5rem;
+  cursor: pointer;
+  color: var(--secondary-color);
+}
+
+footer {
+  margin-top: 1rem;
+  background-color: #0b0223;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.footer-logo {
+  padding-top: 3rem;
+  justify-content: center;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+footer p {
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.6);
+}
