@@ -324,6 +324,10 @@ footer p {
     justify-content: center;
   }
 
+  .logo h1{
+    font-size: 25px;
+  }
+
   .menu {
     flex-direction: column;
   }
@@ -345,6 +349,10 @@ footer p {
 
   .goat-text span {
     font-size: 3rem;
+  }
+
+  .btn{
+    margin: 5px;
   }
 
   .online-games h2 {
